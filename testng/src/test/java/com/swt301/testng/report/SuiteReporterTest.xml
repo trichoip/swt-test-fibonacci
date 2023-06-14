@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="swt301-listeners" verbose="2" annotations="JDK">
+    <listeners>
+        <listener class-name="com.swt301.testng.report.ReporterListener"></listener>
+        <!-- <listener class-name="org.uncommons.reportng.HTMLReporter"></listener> -->
+    </listeners>
+    <test name="test reporter listeners">
+        <classes>
+            <class name="com.swt301.testng.report.ReporterTest"></class>
+        </classes>
+    </test>
+</suite>

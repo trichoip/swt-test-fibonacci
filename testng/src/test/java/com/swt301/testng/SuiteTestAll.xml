@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite-test">
+    <suite-files>
+        <!-- <suite-file path="./paramiter/SuiteParamiterTest.xml"></suite-file> -->
+        <!-- <suite-file path="./group/SuiteGroupTest.xml"></suite-file>  -->
+        <!-- <suite-file path="./listeners/SuiteListenersTest.xml"></suite-file>  -->
+        <!-- <suite-file path="./beforeafter/SuiteBeAfTest.xml"></suite-file> -->
+        <!-- <suite-file path="./inexclude/SuiteIncludeTest.xml"></suite-file>  -->
+        <!-- <suite-file path="./report/SuiteReporterTest.xml"></suite-file> -->
+        <suite-file path="./selenium/TestUserSuccessAndFail.xml"></suite-file>
+    </suite-files>
+</suite>

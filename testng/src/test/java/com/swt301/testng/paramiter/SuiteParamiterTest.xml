@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="swt301-paramiter" verbose="2" annotations="JDK">
+    <test name="test paramiter">
+        <parameter name="datasource" value="jdbc"></parameter>
+        <parameter name="jdbcDriver" value="driver"></parameter>
+        <parameter name="first-name" value="admin"></parameter>
+        <classes>
+            <class name="com.swt301.testng.paramiter.ParamiterTest"></class>
+        </classes>
+    </test>
+</suite>

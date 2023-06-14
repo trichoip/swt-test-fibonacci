@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="swt301-be-af-test" verbose="2" annotations="JDK">
+    <test name="test-be-af" preserve-order="true">
+        <classes>
+            <class name="com.swt301.testng.beforeafter.BeforeAfterSuite" />
+            <class name="com.swt301.testng.beforeafter.BeforeAfterClassTest" />
+        </classes>
+    </test>
+    <test name="test class orther">
+        <classes>
+            <class name="com.swt301.testng.beforeafter.BeforeAfterMethodTest" />
+        </classes>
+    </test>
+</suite>

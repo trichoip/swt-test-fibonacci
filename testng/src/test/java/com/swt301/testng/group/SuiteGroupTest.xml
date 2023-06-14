@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="swt301-group" verbose="2" annotations="JDK">
+    <test name="Test-group">
+        <groups>
+            <run>
+                <include name="functest"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.swt301.testng.group.PriorityGroup"></class>
+        </classes>
+    </test>
+
+    <!-- <test name="Test-group">
+        <groups>
+            <define name="all">
+                <include name="windown.*" />
+            </define>
+            <run>
+                <include name="all"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.swt301.testng.group.PriorityGroup" />
+        </classes>
+    </test> -->
+</suite>
